@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himpunan Mahasiswa Teknik Mesin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .logo-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            height: 80px;          /* Ubah sesuai kebutuhan */
+            width: auto;
+            max-width: 200px;
+        }
+        .header-text {
+            text-align: center;
+        }
+        .header-text h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .header-text p {
+            margin: 5px 0 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #00aaff;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #home {
+            background-color: #00aaff;
+            color: white;
+            text-align: center;
+        }
+        #home h2 {
+            font-size: 2.5em;
+        }
+        #tentang, #struktur, #kegiatan, #galeri, #kontak {
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        .pengurus {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+        }
+        .galeri-img {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .galeri-img img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .logo-header {
+                flex-direction: column;
+            }
+            .logo {
+                height: 60px;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .pengurus, .galeri-img {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-header">
+            <!-- GANTI "logo.png" DENGAN NAMA FILE LOGO ANDA -->
+            <img src="logo.png" alt="Logo Himpunan Mahasiswa Teknik Mesim" class="logo">
+            <div class="header-text">
+                <h1>HIMPUNAN MAHASISWA TEKNIK MESIN</h1>
+                <p>Politeknik Purbaya - Periode 2025/2026</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#struktur">Struktur Organisasi</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="home">
+        <h2>Selamat Datang di Website Resmi Himpunan!</h2>
+        <p>Kami adalah wadah aspirasi dan pengembangan mahasiswa Teknik Mesin untuk menciptakan generasi yang kreatif, inovatif, dan berprestasi.</p>
+    </section>
+
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p>Himpunan Mahasiswa Teknik Mesim (HMTM) adalah organisasi mahasiswa di tingkat jurusan yang bertujuan untuk meningkatkan kualitas akademik, mengembangkan minat bakat, serta menyalurkan aspirasi mahasiswa. Didirikan pada tahun 2000, kami selalu berkomitmen untuk membangun solidaritas dan prestasi bersama.</p>
+        <p><strong>Visi:</strong> Mewujudkan Himpunan Mahasiswa Teknik Mesin Politeknik Purbaya yang berkompeten, berjiwa berintegritas tinggi, serta menjadi wadah aktif, progresif, dan solid dalam mengembangkan potensi, kreativitas, dan rasa kekeluargaan seluruh anggota HMTM Politeknik Purbaya..<br>
+        <strong>Misi:</strong> -Mengembangkan jiwa kepemimpinan, tanggung jawab, dan kedisiplinan anggota HMTM melalui kegiatan yang membangun karakter dan profesionalisme.
+            
+            -Menjadikan HMTM sebagai wadah aspirasi, kolaborasi, dan pengembangan potensi mahasiswa Teknik Mesin yang aktif, dan keratif
+            
+            -Menumbuhkan semangat solidaritas, loyalitas, dan kekeluargaan dengan menjunjung tinggi nilai kebersamaan dan integritas dalam setiap kegiatan organisasi.
+            
+            -Mengoptimalkan peran divisi dan kaderisasi HMTM POLITEKNK PURBAYA agar lebih aktif dan produktif.</p>
+    </section>
+
+    <section id="struktur">
+        <h2>Struktur Organisasi</h2>
+        <div class="pengurus">
+            <div class="card">
+                <h3>Ketua Umum</h3>
+                <p>M Yusril Maulidan</p>
+                <p>2025</p>
+            </div>
+            <div class="card">
+                <h3>Wakil Ketua</h3>
+                <p>M Khaidar Fakhri</p>
+            </div>
+            <div class="card">
+                <h3>Sekretaris</h3>
+                <p>Kaisar Akbar Aljabali</p>
+            </div>
+            <div class="card">
+                <h3>Bendahara</h3>
+                <p>Akhmad Khilman Khashol</p>
+            </div>
+            <!-- Tambahkan card pengurus lain di sini -->
+        </div>
+    </section>
+
+    <section id="kegiatan">
+        <h2>Kegiatan Kami</h2>
+        <ul>
+            <li>Pemaba 2024 dan Pemaba 2025</li>
+            <li>Musyawarah Besar Teknik Mesin</li>
+            <li>Bakti Sosial dan Pengabdian Masyarakat</li>
+            <li>Study Tour dan Kunjungan Industri</li>
+            <li>Acara Tahunan: Dies Natalis Himpunan</li>
+        </ul>
+        <p>Ikuti update kegiatan terbaru melalui media sosial kami!</p>
+    </section>
+
+    <section id="galeri">
+        <h2>Galeri Kegiatan</h2>
+        <div class="galeri-img">
+            <img src="kegiatan_1.png" alt="Kegiatan 1">
+            <img src="kegiatam_2.png" alt="Kegiatan 2">
+            <img src="kegiatam_3.png" alt="Kegiatan 3">
+            <img src="kegiatam_4.png" alt="Kegiatan 4">
+            <!-- Ganti dengan foto asli Anda nanti -->
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Email: hmtmpoliteknikpurbata@gmail.com</p>
+        <p>Instagram: @Hmtm_pp</p>
+        <p>WhatsApp: 0812-3456-7890</p>
+        <p>Alamat: Kampus 1, Kampus Politeknik Purbaya, Tegal</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Himpunan Mahasiswa Teknik Mesin. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
